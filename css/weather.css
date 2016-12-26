@@ -1,0 +1,18 @@
+body {
+    background-size: cover;
+    height: 800px;
+}
+
+p, h1 {
+    font-size: 350%;
+    color: white;
+}
+
+
+@media screen and (min-width: 768px) {
+    .container-fluid {
+        margin-top: 80px;
+    }
+}
+
+
