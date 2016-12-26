@@ -1,8 +1,8 @@
 $("document").ready(function() {
 	
 	var key = "cac609078f73424e22b0d8c9bf67a1b2";
-	var img_src = "http://openweathermap.org/img/w/";
-	var uri = "http://api.openweathermap.org/data/2.5/weather?";
+	var img_src = "https://openweathermap.org/img/w/";
+	var uri = "https://api.openweathermap.org/data/2.5/weather?";
 	var celsius;
 	var fahrenheit;
 		
