@@ -8,8 +8,9 @@ $("document").ready(function() {
 		
 	//Get geolocation of user
 	if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(function(position) {
+          navigator.geolocation.getCurrentPosition(function (position) {
             var temp_url = uri + "lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&APPID="  + key;
+            console.log(temp_url);
             $.ajax({
 				url: temp_url,
 				success: function(result,status,obj) {
@@ -57,8 +58,7 @@ $("document").ready(function() {
 			});
          });
 	}
-	
-	
+		
 	
 	$("#temperature-btn").click(function() {
 		if(document.getElementById('temperature-btn').innerHTML == "Fahrenheit") {
